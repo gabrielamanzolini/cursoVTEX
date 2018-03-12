@@ -1,0 +1,263 @@
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.color--primary {
+    color: #0092a8;
+}
+
+.breadcrumbs li * {
+    color: #999
+}
+
+.pat-vitrine .installment,
+.pat-vitrine .newPrice {
+    color: #0092a8;
+}
+
+.box-price .valor-ou {
+    color: #0092a8;
+}
+
+.tag--discount {
+    background-color: #7fc8d3;
+    color: #fff;
+}
+
+.productName {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+main {
+    padding-top: 0px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+body.account main,
+body.orders main,
+body.home main {
+    padding-top: 100px;
+}
+
+.button--primary {
+    background-color: #0092a8;
+    border-color: #0092a8;
+    color: #fff !important;
+}
+
+body.produto.kit #include {
+    float: left;
+    width: 70%;
+}
+
+@media only screen and (max-width: 799px) and (min-width: 620px) {
+    body.produto.kit #include {
+        width: 69%;
+    }
+}
+
+
+/* fix espaÃƒÆ’Ã‚Â§amento */
+
+div[chaordic="top"]:empty {
+    display: none !important;
+}
+
+
+/* smart banner */
+
+footer {
+    float: left;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+#smartbanner {
+    z-index: 99999;
+    position: fixed !important;
+    bottom: 0 !important;
+    top: auto !important;
+}
+
+iframe#dt-faq-iframe {
+    width: 100% !important;
+    position: fixed;
+    right: 0 !important;
+}
+
+.dt-floater {
+    position: initial !important;
+    background: url(/arquivos/CIAM-faq-mobile-botao.png) no-repeat;
+    background-color: transparent !important;
+    font-size: 0 !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+    background-size: 100%;
+}
+
+.dt-floater .dt-closebutton {
+    display: none;
+}
+
+button.dt-closebutton {
+    right: 10px !important;
+}
+
+.dt-floater div {
+    display: none;
+}
+
+#bottomBar {
+    display: none;
+}
+
+.pat-vitrine .installment,
+.pat-vitrine .newPrice {
+    color: green;
+}
+
+.pat-vitrine .installment,
+.pat-vitrine .newPrice de {
+    color: black;
+}
+
+.pat-vitrine .installment,
+.pat-vitrine .newPrice de {
+    color: green;
+}
+
+.box-price .valor-ou {
+    color: gray;
+}
+
+.buy-button,
+.buy-in-page-button {
+    background: #404040;
+    float: left;
+    background-image: none;
+    border-radius: 0;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 1px 0 rgba(61, 61, 61, .7);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.buy-button,
+.buy-in-page-button:hover {
+    background: #404040;
+    float: left;
+    background-image: none;
+    border-radius: 0;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 1px 0 rgba(61, 61, 61, .7);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cta--primary,
+a {
+    color: gray;
+}
+
+#popupCalculoFreteWrapper {
+    display: none;
+}
+
+.thumbs {
+    padding: 0;
+    height: 230px;
+    overflow: auto;
+}
+
+.app-bar-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: #595959;
+}
+
+.owl-controls * {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+}
+
+.owl-controls .owl-item {
+    padding: 0;
+}
+
+.owl-controls .owl-next::before {
+    content: "\f054";
+    color: black;
+    display: block;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 60px;
+}
+
+.owl-controls .owl-next {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    color: transparent;
+}
+
+.owl-controls .owl-prev::before {
+    content: "\f053";
+    color: black;
+    display: block;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 60px;
+}
+
+.owl-controls .owl-prev {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    color: transparent;
+}
+
+.navdrawer-container.opened {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+.navdrawer-container ul li a {
+    display: block;
+    text-decoration: none;
+    color: #FACF43;
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    white-space: nowrap;
+    padding: 8px 20px 8px 0;
+    height: auto;
+}
+
+.navdrawer-container ul li {
+    border-color: #FFFFFF;
+}
+
+.navdrawer-container ul li::after {
+    color: white;
+}

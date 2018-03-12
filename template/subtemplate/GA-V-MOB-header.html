@@ -1,0 +1,40 @@
+<header class="app-bar promote-layer">
+
+    <div class="app-bar-container">
+        <button class="menu"> <img src="/arquivos/hamburger.png" alt="Menu"/> </button>
+        <!--<button class="trigger"> <i class="fa fa-info"></i> </button>-->
+        <h1 class="logo">
+            <a href="/"> <img src="https://t4.rbxcdn.com/9ed6a1396e13d7d9a73f7741febcfd35" alt="Gabs" width="120" /> </a>
+        </h1>
+        <section class="app-bar-actions">
+            <button class="search-button"> <i class="fa fa-search"></i> </button>
+            <button> <a href="/checkout/#/cart"><i class="fa fa-shopping-cart"></i></a> </button>
+            <button> <a href="/account"><i class="fa fa-user"></i></a> </button>
+        </section>
+    </div>
+</header>
+
+
+<div class="searchdrawer-container">
+    <div class="searchdrawer-input">
+        <vtex.cmc:fullTextSearchBox/>
+    </div>
+    <a class="close-search" href="#">cancelar</a>
+</div>
+
+<nav class="navdrawer-container promote-layer">
+    <h4><a class="close-menu" href="#"><i class="fa fa-close"></i></a></h4>
+    <ul>
+        <vtex.cmc:departmentNavigator/>
+        <div class="preview">
+            <ul>
+                <li>
+                    <a class="menu-item-texto" href="/lookbook">LOOKBOOK</a>
+                </li>
+                <li>
+                    <a class="menu-item-texto" href="/sale" style="color: red">SALE</a>
+                </li>
+            </ul>
+        </div>
+    </ul>
+</nav>
